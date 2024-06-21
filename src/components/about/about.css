@@ -1,0 +1,50 @@
+.aboutme {
+    background-image: url("../../imgs/Vector2.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 700px; 
+}
+/* media */
+   /* media lg for phones and more  */
+   @media screen and (min-width:929px) {
+    .aboutme {
+        
+        height: 1000px; 
+
+    }
+  }
+  /* sm */
+  @media screen and (max-width:500px) {
+    .about-content  .boxs {
+        width: 90% !important;
+    }
+    .aboutme img{
+        width: 60px !important;
+    }
+    .aboutme .boxs .box1:nth-child(2){
+              top: -60px !important;
+
+
+    }
+    .aboutme .comblain{
+        width: 130px !important;
+        max-width: initial !important;
+
+    }
+    .vector1{
+      top: -35px !important;
+      right: -35px !important;
+
+    }
+  }
+/* range screen 500px to 900px */
+@media screen and (min-width:500px) and (max-width:900px) {
+  .comblain2{
+    width: 80px !important;
+    top: 60px !important;
+  }
+
+}
+
