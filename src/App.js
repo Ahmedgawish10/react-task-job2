@@ -8,11 +8,11 @@ import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
 import Loading from './components/loading/Loading';
 function App() {
-  const [loading, setLoading] = useState(1);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(1); 
+      setLoading(false); 
     }, 2000); 
   }, []);
 
