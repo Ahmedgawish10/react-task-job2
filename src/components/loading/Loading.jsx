@@ -5,7 +5,8 @@ function Loading() {
     
     <div className='loading'>
         <div className="container">
-	<span>LOADING</span>
+			<div></div>
+	<span>🚀 </span>
 	<span className="drop"></span>
 </div>
 

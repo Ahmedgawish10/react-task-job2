@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
-	background: var(--blue);
+	background: #080f31;
 	color: var(--yellow);
     overflow: hidden;
 }
