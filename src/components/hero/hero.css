@@ -73,7 +73,7 @@
   bottom: -300px; 
   font-weight: bold;
   animation: BottomTop 2s forwards; 
-  animation-delay: 2s; 
+  animation-delay: 1s; 
 }
 
 @keyframes BottomTop {

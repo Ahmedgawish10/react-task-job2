@@ -57,7 +57,7 @@ function About() {
 <img src={Wave} alt="" className=' absolute top-0  h-[420px] w-[100%]'/>
          
 <div className="vector2 absolute right-[-40px] bottom-[70px]">
-                <img src={Vector2}alt="" />
+                <img src={Vector2}alt="" width="100px"/>
               </div>
 
 </section>

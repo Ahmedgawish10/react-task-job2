@@ -14,6 +14,7 @@
         height: 1000px; 
 
     }
+
   }
   /* sm */
   @media screen and (max-width:500px) {
@@ -32,6 +33,9 @@
         width: 130px !important;
         max-width: initial !important;
 
+    }
+    .vector2{
+      bottom: 25px !important;
     }
     .vector1{
       top: -35px !important;
