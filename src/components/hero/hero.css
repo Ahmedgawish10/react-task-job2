@@ -69,10 +69,11 @@
 }
 /* animation thre for the arrow side hero */
 .animated-element3 {
+  right: -20px;
   bottom: -300px; 
   font-weight: bold;
   animation: BottomTop 2s forwards; 
-  animation-delay: 1s; 
+  animation-delay: 2s; 
 }
 
 @keyframes BottomTop {
@@ -123,7 +124,7 @@
   @media screen and (max-width:767px) {
     .hero-arrow {
   right: 0 !important;
-bottom: -30px;
+/* bottom: -30px; */
 
     }
     .hero .left{

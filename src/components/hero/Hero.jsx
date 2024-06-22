@@ -26,7 +26,7 @@ function Hero() {
               </button>
 
               </div>
-              <div className='hero-arrow absolute bottom-[-86px] right-[-100px] animated-element3 animate3 '><img src={Arrow2} alt="" width='170px' /></div>
+              <div className='hero-arrow absolute  animated-element3 animate3 '><img src={Arrow2} alt="" width='170px' /></div>
           </div>
           <div className="left flex items-center">
             <span className='heroman-animated relative'>
