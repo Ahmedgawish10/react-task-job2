@@ -1,0 +1,16 @@
+/* media for sm */
+@media screen and (max-width:500px) {
+    .vector1{
+        top: 5px !important;
+        right: -4px!important;
+    }
+    .vector2{
+        bottom: 5px;
+    }
+    .vector1 img{
+        width: 40px !important;
+            }
+    .vector2 img{
+width: 60px !important;
+    }
+}

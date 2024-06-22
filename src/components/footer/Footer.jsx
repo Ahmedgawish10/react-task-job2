@@ -6,7 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
 import Foot1 from "../../imgs/foot1.png"
 import Foot2 from "../../imgs/foot2.png"
-
+import "./footer.css"
 function Footer() {
   return (
     <section className='footer bg-[#EDEEFF] mt-[8rem] relative  overflow-hidden'>
@@ -26,7 +26,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-name flex justify-center items-center gap-3 pt-5 pb-4">
-                  <span>  Ahmed Ali Gawish</span> <FaRegCopyright/> 2024
+                  <span>  Hassan Abu Ali</span> <FaRegCopyright/> 2024
                 </div>
 
 

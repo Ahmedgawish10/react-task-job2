@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,useRef} from 'react'
 import LogoMan from "../../imgs/man.png"
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { RiCloseFill } from "react-icons/ri";
@@ -9,6 +9,8 @@ function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+ 
+
   return (
 <header className="bg-white fixed top-0 w-full z-50">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 pt-5">
@@ -27,15 +29,15 @@ function Header() {
             </li>
 
             <li className=" h-[100%] flex items-center">
-              <a className="text-white transition hover:text-gray-500/75" href="/#skills"> Skills </a>
+              <a className="text-white transition hover:text-gray-500/75" href="#skills" > Skills </a>
             </li>
 
             <li className="  h-[100%] flex items-center">
-              <a className="text-white transition hover:text-gray-500/75" href="/#portfolio"> Portfolio </a>
+              <a className="text-white transition hover:text-gray-500/75" href="#portfolio"> Portfolio </a>
             </li>
 
             <li className=" h-[100%] flex items-center">
-              <a className="text-white transition hover:text-gray-500/75" href="/#blog"> Blog </a>
+              <a className="text-white transition hover:text-gray-500/75" href="#blog"> Blog </a>
             </li>
 
             <li className=" h-[100%] hidden " >

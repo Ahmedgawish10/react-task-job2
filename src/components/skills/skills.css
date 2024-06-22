@@ -140,17 +140,17 @@
   }
     
 }
-
-
-
 .gradient-text {
   font-size: 2em;
   font-weight: bold;
   color: transparent;
   text-shadow: 0 0 0px #b00bf7, 0 0 58px #B224EF, 0 0 85px #7579FF, 0 0 1px #7579FF;
 }
+/***********************************/
+.skills .skills-content .box1:nth-child(2n) > div > div:nth-child(1) {
+top: -9px;
 
-
+}
 
 
 
