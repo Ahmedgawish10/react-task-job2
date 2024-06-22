@@ -134,11 +134,6 @@
 }
 @media screen and (min-width:768px) {
 
-  .skill{
-    text-align: initial !important;
-    margin-left: 30px;
-  }
-    
 }
 .gradient-text {
   font-size: 2em;
@@ -150,6 +145,10 @@
 .skills .skills-content .box1:nth-child(2n) > div > div:nth-child(1) {
 top: -9px;
 
+}
+
+.skills .skills-content .box1:nth-child(2n) > div > div:nth-child(2) {
+margin-top: 2px !important;
 }
 
 

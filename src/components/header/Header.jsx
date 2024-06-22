@@ -2,6 +2,7 @@ import React,{useState,useEffect,useRef} from 'react'
 import LogoMan from "../../imgs/man.png"
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { RiCloseFill } from "react-icons/ri";
+import Ellipse from "../../imgs//Ellipse 34.png"
 
 import "./header.css";
 function Header() {
@@ -14,7 +15,10 @@ function Header() {
   return (
 <header className="bg-white fixed top-0 w-full z-50">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 pt-5">
-    <div className="flex h-16 items-center justify-between bg-[#1B1C37] border rounded px-3 ">
+    <div className="flex h-16 items-center justify-between bg-[#1B1C37] border rounded px-3 relative">
+    <div className="vector2 absolute right-[-10px] bottom-[0px] z-0">
+        <img src={Ellipse} alt="" width="300px" />
+      </div>
       <div className="md:flex md:items-center md:gap-12">
         <a className="flex text-white items-center text-sm" href="#">
           <img src={LogoMan} alt="" className='me-2'/> Hassan Abu Ali

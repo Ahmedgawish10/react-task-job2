@@ -104,7 +104,12 @@
     
         }
       }
-      
+      header .vector2{
+               z-index: -10 !important;
+      }
+      header .vector2 img{
+        width: 400px !important;
+      }
 
 
 
