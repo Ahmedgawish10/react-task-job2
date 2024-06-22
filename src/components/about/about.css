@@ -6,6 +6,9 @@
   width: 100%;
   height: 700px; 
 }
+.vector2 img{
+width: 60px;
+}
 /* media */
    /* media lg for phones and more  */
    @media screen and (min-width:929px) {
